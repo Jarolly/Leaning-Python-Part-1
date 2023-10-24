@@ -1,0 +1,7 @@
+dia = input ('Qual dia você nasceu?')
+mes = input ('Qual mês você nasceu?')
+ano = input ('Qual ano você nasceu?')
+print ('Sua data de nascimento é',dia," de ",mes," de ", ano, " correto?")
+resposta = input ('s para sim e n para não')
+if resposta == 's':print ("Então tudo certo!")
+if resposta == 'n':print ("Oporra, acho que errei!")
